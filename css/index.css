@@ -1,0 +1,177 @@
+.jd_nav > .jd_cont {
+  height: 86px;
+  overflow: hidden;
+}
+.jd_nav > .jd_cont > .jd_logo {
+  float: left;
+  margin-top: 25px;
+  height: 50px;
+  width: 136px;
+}
+.jd_nav > .jd_cont > .jd_logo > a {
+  display: block;
+  height: 34px;
+  width: 116px;
+  text-indent: -9999px;
+  background: url("../images/logo.png") no-repeat center;
+}
+.jd_nav > .jd_cont .jd_navbar {
+  float: left;
+  font-size: 15px;
+}
+.jd_nav > .jd_cont .jd_navbar > .nav-pills a {
+  border-radius: 0;
+}
+.jd_nav > .jd_cont .jd_navbar > ul {
+  margin: 20px;
+}
+.jd_nav > .jd_cont .jd_navbar > ul > li {
+  height: 43px;
+  margin-right: 20px;
+}
+.jd_nav > .jd_cont .jd_navbar > ul > li > a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 1px;
+  color: #3c3c3c;
+  background-color: transparent;
+  border: none;
+}
+.jd_nav > .jd_cont .jd_navbar > ul > li.active > a {
+  border-bottom: 2px solid #00C721;
+}
+.jd_nav > .jd_cont .jd_navbar > ul > li.active > a:hover {
+  border-bottom: none;
+}
+@media (max-width: 640px) {
+  .jd_nav > .jd_cont .jd_navbar {
+    display: none;
+  }
+}
+.jd_new {
+  margin-top: 20px;
+}
+.jd_new .jd_menu {
+  height: 45px;
+}
+.jd_new .jd_menu > h4 {
+  margin: 0;
+  line-height: 45px;
+  float: left;
+  padding-left: 12px;
+  position: relative;
+  font-weight: 900;
+}
+.jd_new .jd_menu > h4::before {
+  content: "";
+  width: 4px;
+  height: 30px;
+  background-color: #00C721;
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+.jd_new .jd_menu > p {
+  line-height: 45px;
+  float: right;
+}
+.jd_new .jd_menu > p > a {
+  color: #3c3c3c;
+  font-size: 16px;
+}
+.jd_new .jd_banner {
+  width: 100%;
+  overflow: hidden;
+}
+.jd_new .jd_banner > li {
+  width: 33.33333333%;
+  float: left;
+  padding: 5px;
+}
+.jd_new .jd_banner > li img {
+  display: block;
+  width: 100%;
+}
+.jd_new .jd_banner > li h4 {
+  font-size: 14px;
+  color: #3c3c3c;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.jd_new .jd_banner > li p {
+  color: #A6A6A6;
+  font-size: 12px;
+}
+@media (max-width: 640px) {
+  .jd_new .jd_banner li {
+    width: 100%;
+  }
+}
+.jd_hr {
+  background-color: #dfdfdf;
+}
+.jd_hr .jd_menu {
+  height: 45px;
+  margin-top: 20px;
+}
+.jd_hr .jd_menu > h4 {
+  margin: 0;
+  line-height: 45px;
+  float: left;
+  padding-left: 12px;
+  position: relative;
+  font-weight: 900;
+}
+.jd_hr .jd_menu > h4::before {
+  content: "";
+  width: 4px;
+  height: 30px;
+  background-color: #00C721;
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+.jd_hr .jd_menu > p {
+  line-height: 45px;
+  float: right;
+}
+.jd_hr .jd_menu > p > a {
+  color: #3c3c3c;
+  font-size: 16px;
+}
+.jd_hr ul {
+  margin: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.jd_hr ul > li {
+  float: left;
+  width: 33.3333333%;
+}
+.jd_hr ul > li h4 > a {
+  color: #484848;
+  font-weight: 700;
+  font-size: 16px;
+}
+.jd_hr ul > li > p {
+  margin: 10px 0;
+}
+@media (max-width: 640px) {
+  .jd_hr ul li {
+    width: 100%;
+  }
+}
+.jd_footer {
+  background-color: #353535;
+  text-align: center;
+  color: #a2a2a2;
+}
+.jd_footer > .jd_ft {
+  padding: 20px 0;
+}
+.jd_footer > .jd_ft > p {
+  margin: 10px 0;
+}
